@@ -1,3 +1,4 @@
+import Image from "next/image"
 import Link from "next/link"
 
 export function Footer() {
@@ -7,10 +8,7 @@ export function Footer() {
         <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5">
           <div className="space-y-6">
             <div className="flex items-center space-x-2">
-              <div className="h-8 w-8 rounded-full bg-primary flex items-center justify-center">
-                <span className="text-primary-foreground text-lg font-extrabold">S</span>
-              </div>
-              <span className="text-xl font-extrabold">Saloonik</span>
+              <Image alt="logo" width={100} height={100} src="logo.svg"></Image>
             </div>
             <p className="text-sm text-muted-foreground">
               Tworzone z myślą o produktywności.

@@ -34,9 +34,9 @@ export default function RootLayout({
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
         <div className="bg-white min-h-[100dvh] grid grid-rows-[auto_1fr_auto]">
           <ReactQueryProvider>
-          <Navigation />
+            <Navigation />
             {children}
-          <Footer />
+            <Footer />
             <ReactQueryDevtools initialIsOpen={false} />
           </ReactQueryProvider>
         </div>

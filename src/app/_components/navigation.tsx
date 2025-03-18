@@ -1,9 +1,11 @@
+import Image from "next/image";
+import Link from "next/link";
 
 export const Navigation = () => (
-    <div className="p-5 flex justify-around bg-stone-200">
-        <div className="w-1/5 px-10">
-            <span className="text-md font-extrabold">SALOONIK</span>
-        </div>
+    <div className="p-5 font-medium flex font-sans text-[#393637] justify-around place-items-center gap-4 bg-stone-200">
+        <Link className="" href="/">
+            <Image alt="logo" width={150} height={150} src="logo.svg"></Image>
+        </Link>
         <span>Home</span>
         <span>Features</span>
         <span>Pricing</span>
