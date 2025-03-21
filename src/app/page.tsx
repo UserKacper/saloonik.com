@@ -12,7 +12,7 @@ export default function Home() {
       {/* Hero Section */}
       <section className="flex flex-col items-center justify-center space-y-8 px-4 py-24 text-center md:py-32">
         <div className="space-y-4 flex justify-center flex-col place-items-center">
-            <Image alt="logo" width={300} height={300} src="logo.svg"></Image>
+            <Image alt="logo" width={300} height={300} src="logo.svg"/>
           <p className="mx-auto max-w-[700px] text-muted-foreground md:text-xl">
             the best managment app for beauty business
           </p>
@@ -29,7 +29,7 @@ export default function Home() {
         </div>
         <div className="relative mx-auto aspect-video w-full max-w-4xl rounded-lg border bg-muted/50 shadow-lg">
           <Image
-            src="/placeholder.svg?height=720&width=1280"
+            src="/app.jpg"
             alt="Platform preview"
             className="rounded-lg object-cover"
             fill
